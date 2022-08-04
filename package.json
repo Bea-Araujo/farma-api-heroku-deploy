@@ -9,12 +9,12 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://https://github.com/Bea-Araujo/farma-api-heroku-deploy"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": ""
+        "url": "https://https://github.com/Bea-Araujo/farma-api-heroku-deploy/issues"
     },
     "homepage": "",
     "dependencies": {
