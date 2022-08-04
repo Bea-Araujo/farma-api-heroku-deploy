@@ -1,0 +1,31 @@
+{
+    "name": "Projeto_Final",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "express": "^4.18.1",
+        "sequelize": "^6.21.3",
+        "sqlite3": "^5.0.8"
+    },
+    "devDependencies": {
+        "jest": "^28.1.2",
+        "nodemon": "^2.0.18",
+        "supertest": "^6.2.4"
+    }
+}
