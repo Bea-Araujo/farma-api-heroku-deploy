@@ -1,8 +1,8 @@
 // import express from 'express'
 const express = require("express");
 const cors = require('cors')
-const sequelize = require("../config/dbcontext");
-const Routes = require("../routes/App.routes")
+const sequelize = require("./src/config/dbcontext");
+const Routes = require("./src/routes/App.routes")
 
 let port = process.env.PORT || 3000;
 
