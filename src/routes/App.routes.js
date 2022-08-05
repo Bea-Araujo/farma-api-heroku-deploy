@@ -3,7 +3,7 @@ const ProductController = require("../controller/ProductController");
 const SupplierController = require("../controller/SupplierController")
 const CategoryController = require("../controller/CategoryController");
 const CustomerController = require("../controller/CustomerController");
-const PharmacistController = require("../controller/PharmacistController");
+// const PharmacistController = require("../controller/PharmacistController");
 const router = express.Router();
 
 // Routes for the Product
@@ -47,7 +47,7 @@ router.route("/customer/:id")
     .delete(CustomerController.deleteCustomer);
 
 
-// Routs of Pharmacist
+// Routes of Pharmacist
 router.route("/pharmacist")
     .get(PharmacistController.allPharmacist)
     .post(PharmacistController.createPharmacist);
