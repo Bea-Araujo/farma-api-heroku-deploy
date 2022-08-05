@@ -1,4 +1,4 @@
-const Pharmacist = require('../models/PharmacistModel')
+const Pharmacist = require('../models/PharmacistMod')
 
 module.exports = {
     async allPharmacist(req, res) {
