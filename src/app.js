@@ -4,7 +4,7 @@ const cors = require('cors')
 const sequelize = require("./config/dbcontext");
 const Routes = require("./routes/App.routes")
 
-let port = process.env.PORT || 3030;
+let port = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors())
