@@ -4,7 +4,7 @@ const SupplierController = require("../controller/SupplierController")
 const CategoryController = require("../controller/CategoryController");
 const CustomerController = require("../controller/CustomerController");
 // const PharmacistController = require("../controller/PharmacistController");
-const PharmacistController = require('../controller/PharmacistController');
+const PharmacistCon = require('../controller/PharmacistController');
 const router = express.Router();
 
 // Routes for the Product
@@ -50,13 +50,13 @@ router.route("/customer/:id")
 
 // Routes of Pharmacist
 router.route("/pharmacist")
-    .get(PharmacistController.allPharmacist)
-    .post(PharmacistController.createPharmacist);
+    .get(PharmacistCon.allPharmacist)
+    .post(PharmacistCon.createPharmacist);
 
 router.route("/pharmacist/:id")
-    .get(PharmacistController.onePharmacist)
-    .put(PharmacistController.updatePharmacist)
-    .delete(PharmacistController.deletePharmacist);
+    .get(PharmacistCon.onePharmacist)
+    .put(PharmacistCon.updatePharmacist)
+    .delete(PharmacistCon.deletePharmacist);
 
 
 module.exports = router;
